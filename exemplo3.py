@@ -1,6 +1,7 @@
 import cv2
 
-video = cv2.VideoCapture('videos\\video2.mp4')
+#video = cv2.VideoCapture('videos\\video.mp4')
+video = cv2.VideoCapture(0)
 classificador_face = cv2.CascadeClassifier('cascades\\haarcascade_frontalface_default.xml')
 
 while True:
